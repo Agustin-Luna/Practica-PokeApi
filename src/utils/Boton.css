@@ -1,0 +1,13 @@
+.boton {
+    background-color: #ade8f4;
+    color: #000;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}

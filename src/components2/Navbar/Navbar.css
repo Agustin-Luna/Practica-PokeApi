@@ -1,0 +1,30 @@
+.container-navbar{
+    display: flex;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 0);
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-container{
+    margin-left: 1.25rem;
+}
+.container-input{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 1rem;
+    margin-right: 20px;
+} 
+.input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
+input::placeholder {
+    text-align: center; 
+    line-height: 40px; 
+}
+.boton{
+    background-color: rgba(205, 36, 36, 0.856);
+}
