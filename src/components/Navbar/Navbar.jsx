@@ -1,14 +1,16 @@
 import Pokedex from '../../assets/icons8-pokedex-64.png'
 import './Navbar.css'
-import Search from '../Search/Search.jsx'
+import { Link } from 'react-router-dom'
 
 
-const Navbar = ({pokemon}) => {
+const Navbar = () => {
 
   return (
     <header className='container-navbar'>
         <div className='icon-container'>
-            <img src={Pokedex} alt='pokedex' />
+          <Link to={'/'}>
+            <img src={Pokedex} alt='pokedex' className='icon-svg' />
+          </Link>
         </div>
     
     </header>

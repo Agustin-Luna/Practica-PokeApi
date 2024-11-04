@@ -6,10 +6,14 @@
     justify-content: space-between;
     align-items: center;
 }
-.icon-container{
+.icon-svg{
     margin-left: 1.25rem;
+    width: 200px;
 }
-.container-input{
+
+
+
+/* .container-input{
     display: flex;
     flex-direction: row;
     width: auto;
@@ -27,4 +31,4 @@ input::placeholder {
 }
 .boton{
     background-color: rgba(205, 36, 36, 0.856);
-}
+}  */

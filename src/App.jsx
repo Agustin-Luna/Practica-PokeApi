@@ -1,17 +1,32 @@
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import FetchPokeApi from './components2/FetchPokeApi/FetchPokeApi.jsx';
-import Navbar from './components2/Navbar/Navbar.jsx';
+import FetchPokeApi from './components/FetchPokeApi/FetchPokeApi.jsx';
+import Navbar from './components/Navbar/Navbar.jsx';
+import PagePokemon from './components/PagePokemon/PagePokemon.jsx';
+import PokemonProvider from './contex/PokemonProvider.jsx';
 
 
 
 function App() {
 
   return (
-    <>
+    <PokemonProvider>
+
+      <BrowserRouter>
+
       <Navbar/>
-      <FetchPokeApi/>
-    </>
+
+        <Routes>
+          <Route path='/' element={<FetchPokeApi/>}/>
+          <Route path='/pokemones/:id' element={<PagePokemon/>}/>
+        </Routes>
+
+      </BrowserRouter>
+
+    </PokemonProvider>
+
+
   )
 }
 
-export default App
+export default App;

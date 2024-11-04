@@ -1,0 +1,126 @@
+.link-poke{
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+
+.card-container{
+    display: flex;
+    width: 400px;
+    height: 350px;
+    gap: 10px;
+    margin-left: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.card-container{
+    background-color: #EEE8AA;
+    border-radius: 20px;
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+}
+.card-img{
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .8));
+}
+
+.card-title{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-id{
+    display: flex;
+    width: auto;
+    font-size: 20px;
+}
+.types-container {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.poke-type {
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #000; 
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.type-normal {
+    background-color: grey;
+}
+
+.type-fire {
+    background-color: red;
+}
+
+.type-water {
+    background-color: rgba(0, 0, 255, 0.473);
+}
+
+.type-grass {
+    background-color: green;
+}
+
+.type-electric {
+    background-color: yellow;
+}
+
+.type-ice {
+    background-color: lightblue;
+}
+
+.type-fighting {
+    background-color: brown;
+}
+
+.type-poison {
+    background-color: rgba(128, 0, 128, 0.753);
+}
+
+.type-ground {
+    background-color: sandybrown;
+}
+
+.type-flying {
+    background-color: skyblue;
+}
+
+.type-psychic {
+    background-color: pink;
+}
+
+.type-bug {
+    background-color: limegreen;
+}
+
+.type-rock {
+    background-color: darkgoldenrod;
+}
+
+.type-ghost {
+    background-color: rgba(76, 0, 130, 0.808);
+}
+
+.type-dragon {
+    background-color: orange;
+}
+
+.type-dark {
+    background-color: #444444e1;
+}
+
+.type-steel {
+    background-color: silver;
+}
+
+.type-fairy {
+    background-color: lightpink;
+}
