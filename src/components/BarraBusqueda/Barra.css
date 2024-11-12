@@ -1,0 +1,26 @@
+.container-input{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 1rem;
+    margin-right: 20px;
+} 
+.input-poke{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+.input-poke::placeholder {
+    text-align: center; 
+    justify-content: center;
+    line-height: 50px; 
+    font-size: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.boton{
+    background-color: rgba(205, 36, 36, 0.856);
+}  

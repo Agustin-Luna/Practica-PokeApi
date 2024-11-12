@@ -44,7 +44,7 @@ const PagePokemon = () => {
           </div>
           <div className='container-info'>
 
-          <div className='container-types-card'>
+          <div className='container-types-card' key={poke.name}>
             {poke.types?.map(type => (
               <span className={`poke-type ${getTypeClass(type.type.name)}`}>
               {type.type.name}
